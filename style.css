@@ -1,0 +1,119 @@
+
+body {
+    background-color: #101b35;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #111827;
+}
+
+header h2 {
+    color: #00d4ff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00d4ff;
+}
+
+#home {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+#home h1 {
+    color: white;
+    font-size: 45px;
+    animation: slideDown 2s ease;
+}
+
+#home h2 {
+    color: #00d4ff;
+    font-size: 35px;
+}
+
+#home p {
+    color: #cccccc;
+    font-size: 20px;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btn {
+    display: inline-block;
+    background-color: #00d4ff;
+    color: #080b16;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+#about, #contact {
+    padding: 60px 20px;
+}
+
+#about h2, #contact h2 {
+    color: #00d4ff;
+    font-size: 35px;
+}
+
+footer {
+    background-color: #080f20;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer h3 {
+    color: #00d4ff;
+}
+
+footer p {
+    color: #cccccc;
+    font-size: 14px;
+}nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00d4ff;
+}
+<a href="#projects">Projects</a>
